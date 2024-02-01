@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Bizboost",
+    "slug": "LoginForm",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photoPermission": "The app access your photos to let you share them with your"
+        }
+      ]
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo3.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo3.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.deadpoolxsis.LoginForm"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9ef12690-8ff1-472c-a5ca-00313832e077"
+      }
+    }
+  }
+}
